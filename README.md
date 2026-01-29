@@ -83,6 +83,8 @@ Swagger/OpenAPI
 
 Spring Security
 
+JWT(Json Web Tokens)
+
 ---
 
 ## 🚀 Cómo ejecutar
