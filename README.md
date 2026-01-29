@@ -58,6 +58,8 @@ Se eligió una estructura domain-centric, donde cada paquete representa un área
 
 Esto permite que las reglas de negocio estén más cerca de las entidades que las necesitan.
 
+La carpeta infra concentra configuraciones transversales como seguridad.
+
 Se utilizaron Java Records para definir DTOs y transferir datos de manera más simple e inmutable, reduciendo código repetitivo y mejorando la legibilidad.
 
 En proyectos más grandes, se podría complementar con un paquete service para separar casos de uso, pero en este proyecto la lógica se mantiene dentro de cada dominio, reflejando lo aprendido en los cursos de Alura.
