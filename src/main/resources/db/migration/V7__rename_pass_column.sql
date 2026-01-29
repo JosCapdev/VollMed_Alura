@@ -1,0 +1,2 @@
+ALTER TABLE usuarios
+CHANGE COLUMN pass contrasena VARCHAR(255) NOT NULL;
