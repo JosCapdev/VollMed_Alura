@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.*;
 public class ConsultaController {
 
     @Autowired
-    ReservaDeConsultas reserva;
+    private ReservaDeConsultas reserva;
 
     @PostMapping
     @Transactional

@@ -15,13 +15,13 @@ import java.util.List;
 public class ReservaDeConsultas {
 
     @Autowired
-    MedicoRepository medicoRepository;
+    private MedicoRepository medicoRepository;
     @Autowired
-    PacienteRepository pacienteRepository;
+    private PacienteRepository pacienteRepository;
     @Autowired
-    ConsultaRepository consultaRepository;
+    private ConsultaRepository consultaRepository;
     @Autowired
-    List<ValidadorDeConsultas> validadores;
+    private List<ValidadorDeConsultas> validadores;
     @Autowired
     private List<ValidadorCancelamientoDeConsulta> validadoresCancelamiento;
 

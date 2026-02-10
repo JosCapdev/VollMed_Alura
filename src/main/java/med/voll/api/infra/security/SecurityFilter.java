@@ -17,7 +17,7 @@ import java.io.IOException;
 public class SecurityFilter extends OncePerRequestFilter {
 
     @Autowired
-    UsuarioRepository repository;
+    private UsuarioRepository repository;
 
     @Autowired
     private TokenService tokenService;
